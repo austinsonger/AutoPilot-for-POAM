@@ -34,7 +34,7 @@ Logger.log("Tenable API key received securely.");
 return ContentService.createTextOutput("API key received successfully.");
 ```
 
-## Example Workflow
+## Workflow
 1. A client sends the Tenable API key via an HTTP POST request.
 2. The function extracts the API key from the request.
 3. The API key is stored in a global variable.
