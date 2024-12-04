@@ -1,8 +1,7 @@
 
 # moveResolvedVulnerabilities Function
 
-## Overview
-This function automates the process of identifying and moving resolved vulnerabilities from the "Open POA&M Items" sheet to the "Closed POA&M Items" sheet in a Google Spreadsheet. It compares the current scan results from AWS Inspector and Tenable with entries in the open sheet.
+> This function automates the process of identifying and moving resolved vulnerabilities from the "Open POA&M Items" sheet to the "Closed POA&M Items" sheet in a Google Spreadsheet. It compares the current scan results from AWS Inspector and Tenable with entries in the open sheet.
 
 ## Key Steps
 1. **Retrieve Required Sheets**:
