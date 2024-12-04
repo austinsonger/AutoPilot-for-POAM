@@ -91,7 +91,7 @@ This script, written in JavaScript for Google Apps Script, integrates with AWS a
 
 ---
 
-## Suggestions for Improvement
+## TO-DO
 1. Parameterize the AWS region to enhance flexibility for multi-region setups.
 2. Add validation to ensure that fetched secrets are in the correct format.
 3. Implement logging for potential GitHub and AWS API errors.

@@ -90,7 +90,7 @@ This script, written in JavaScript for Google Apps Script, automates the managem
 
 ---
 
-## Suggestions for Improvement
+## TO-DO
 1. Parameterize column indices to avoid hardcoding and improve adaptability to sheet structure changes.
 2. Add detailed comments for key operations to improve code clarity.
 3. Enhance error handling for API responses and data inconsistencies.
