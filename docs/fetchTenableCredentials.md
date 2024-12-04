@@ -1,8 +1,7 @@
 
-# doPost Function (Tenable)
+# fetch Function (Tenable)
 
-## Overview
-This function securely receives the Tenable API key via an HTTP POST request and stores it in a global variable for further use in API requests.
+> This function securely receives the Tenable API key via an HTTP POST request and stores it in a global variable for further use in API requests.
 
 ## Key Steps
 1. **Parse Incoming Data**:
