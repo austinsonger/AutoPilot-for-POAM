@@ -1,8 +1,7 @@
 
 # openPOAMItems Function
 
-## Overview
-This function automates the movement of resolved "Open POA&M Items" to the "Closed POA&M Items" sheet when the "False Positive" column is updated to "Yes." It ensures better tracking and organization of resolved items.
+> This function automates the movement of resolved "Open POA&M Items" to the "Closed POA&M Items" sheet when the "False Positive" column is updated to "Yes." It ensures better tracking and organization of resolved items.
 
 ## Key Steps
 1. **Retrieve Required Sheets**:
