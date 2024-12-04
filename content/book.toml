@@ -1,6 +1,6 @@
 [book]
 # Title of the book
-title = "AutoPilot POAM"
+title = "AutoPilot: POAM"
 
 # Author of the book
 authors = ["Austin Songer"]
@@ -9,7 +9,7 @@ authors = ["Austin Songer"]
 language = "en"
 
 # Directory containing markdown files
-src = "my_markdown_files"  # Custom directory for markdown files
+src = "docs"  # Custom directory for markdown files
 
 # Build output directory
 build-dir = "output"
