@@ -2,7 +2,7 @@
   <configuration default="false" name="AutoPilot docs" type="StardustRunConfiguration" factoryName="build-pdf">
     <option name="copyright" />
     <option name="description" />
-    <option name="folderPath" value="$PROJECT_DIR$/output" />
+    <option name="folderPath" value="$PROJECT_DIR$/content/output" />
     <option name="footer" />
     <option name="header" />
     <option name="instanceId" value="a" />
