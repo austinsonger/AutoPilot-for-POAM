@@ -1,8 +1,6 @@
 
 # fetchAWSInspectorData Function
-
-## Overview
-This function fetches vulnerability data from AWS Inspector, dynamically generating AWS Signature Version 4 headers for secure authentication. It processes and formats the data into a structured format.
+> This function fetches vulnerability data from AWS Inspector, dynamically generating AWS Signature Version 4 headers for secure authentication. It processes and formats the data into a structured format.
 
 ## Key Steps
 1. **Check for Credentials**:
@@ -68,7 +66,7 @@ try {
 }
 ```
 
-## Example Workflow
+## Workflow
 1. The function checks if AWS credentials are set.
 2. Sends a POST request to AWS Inspector's API.
 3. Retrieves and formats the vulnerability data for further use.
