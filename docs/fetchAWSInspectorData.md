@@ -140,7 +140,7 @@ return {
 };
 ```
 
-## Example Workflow
+## Workflow
 1. Constructs a canonical request based on the HTTP method, URI, headers, and payload.
 2. Generates a string-to-sign based on the canonical request and credential scope.
 3. Creates a signing key using the AWS secret key, date, region, and service.
