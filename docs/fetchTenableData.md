@@ -1,8 +1,7 @@
 
 # fetchTenableData Function
 
-## Overview
-This function fetches vulnerability and asset data from the Tenable API using a dynamically retrieved API key. It processes the data into a structured format for further use.
+> This function fetches vulnerability and asset data from the Tenable API using a dynamically retrieved API key. It processes the data into a structured format for further use.
 
 ## Key Steps
 1. **Fetch API Key**:
