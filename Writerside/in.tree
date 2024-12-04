@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="in"
+                 name="Instance Name" start-page="SUMMARY.md">
+
+    <toc-element topic="SUMMARY.md">
+        <toc-element topic="Github-Apps.md"/>
+        <toc-element topic="Functions.md">
+            <toc-element topic="mainCode.md"/>
+            <toc-element topic="moveResolvedVulnerabilities.md"/>
+            <toc-element topic="TenableData.md"/>
+            <toc-element topic="AWSInspectorData.md"/>
+            <toc-element topic="fetchAWSCredentialsFromGithub.md"/>
+            <toc-element topic="openPOAMItems.md"/>
+            <toc-element topic="configurationFindings.md"/>
+            <toc-element topic="fetchTenableAPIKEYFromGithub.md"/>
+        </toc-element>
+    </toc-element>
+</instance-profile>
