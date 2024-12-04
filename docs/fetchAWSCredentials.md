@@ -1,19 +1,15 @@
 
-# doPost Function (AWS Inspector)
+# fetch Function (AWS Inspector)
 
-## Overview
-This function securely receives AWS credentials via an HTTP POST request and stores them in global variables for further use in API requests.
+> This function securely receives AWS credentials via an HTTP POST request and stores them in global variables for further use in API requests.
 
 ## Key Steps
 1. **Parse Incoming Data**:
    - Extracts AWS credentials and region from the request body.
-
 2. **Store Credentials**:
    - Populates global variables with the received credentials.
-
 3. **Log Success**:
    - Logs a message confirming receipt of credentials.
-
 4. **Send Response**:
    - Returns a success message to the client.
 
@@ -37,7 +33,7 @@ Logger.log("AWS secrets received securely.");
 return ContentService.createTextOutput("Secrets received successfully.");
 ```
 
-## Example Workflow
+## Workflow
 1. A client sends AWS credentials via an HTTP POST request.
 2. The function extracts the credentials and region from the request.
 3. The credentials are stored in global variables.
