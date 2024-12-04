@@ -1,0 +1,28 @@
+[book]
+# Title of the book
+title = "AutoPilot"
+  
+# Author of the book
+authors = ["Austin"]
+  
+# Language of the book
+language = "en"
+  
+# Directory containing markdown files
+src = "docs"
+  
+# Build output directory
+build-dir = "output"
+  
+# Whether to include a search index
+create-search-index = true
+  
+# Preprocessor configurations
+[output.html]
+# The theme used for the HTML output
+theme = "light"
+  
+# Additional options for the HTML output
+default-theme = "light"
+additional-js = []
+additional-css = []
