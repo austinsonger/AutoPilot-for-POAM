@@ -1,6 +1,6 @@
-# fetchTenableData
+# fetchTenableData.gs
 
-This script, written in JavaScript for Google Apps Script, integrates with Tenable's API to fetch and process data related to assets and vulnerabilities. It supports dynamic API key assignment via an HTTP `POST` request or GitHub Secrets retrieval. The processed data is structured to associate vulnerabilities with their corresponding assets.
+> This script, written in JavaScript for Google Apps Script, integrates with Tenable's API to fetch and process data related to assets and vulnerabilities. It supports dynamic API key assignment via an HTTP `POST` request or GitHub Secrets retrieval. The processed data is structured to associate vulnerabilities with their corresponding assets.
 
 ## Structure and Organization
 - **Main Functions**:

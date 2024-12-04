@@ -1,9 +1,9 @@
-# configurationFindings
+# closingOpenPOAMItems.gs
 
-This script, written in JavaScript for Google Apps Script, automates the management of findings in a spreadsheet. Specifically, it moves rows marked as "False Positive" (`Yes`) from a sheet named "Configuration Findings" to another sheet called "Closed POA&M Items" and deletes the original row from the source sheet.
+> This script, written in JavaScript for Google Apps Script, automates the management of POA&M (Plan of Action and Milestones) items in a spreadsheet. Specifically, it moves rows marked as "False Positive" (`Yes`) from a sheet named "Open POA&M Items" to another sheet called "Closed POA&M Items" and deletes the original row from the source sheet.
 
 ## Structure and Organization
-- **Function**: `configurationFindings(e)`
+- **Function**: `openPOAMItems(e)`
     - Triggered by an edit event in the spreadsheet.
     - Handles row transfer between two sheets based on the value in the "False Positive" column.
 
@@ -12,20 +12,20 @@ This script, written in JavaScript for Google Apps Script, automates the managem
 
 ## Key Components
 1. **Spreadsheet Interaction**:
-    - Accesses the active spreadsheet and retrieves references to the "Configuration Findings" and "Closed POA&M Items" sheets.
+    - Accesses the active spreadsheet and retrieves references to the "Open POA&M Items" and "Closed POA&M Items" sheets.
     - Dynamically identifies the "False Positive" column by scanning the header row.
 
 2. **Event Handling**:
-    - Detects if the edit occurred in the "False Positive" column of the "Configuration Findings" sheet.
+    - Detects if the edit occurred in the "False Positive" column of the "Open POA&M Items" sheet.
     - Moves the row to the "Closed POA&M Items" sheet if the edited value is `Yes`.
 
 3. **Row Manipulation**:
     - Appends the row to the target sheet (`Closed POA&M Items`).
-    - Deletes the corresponding row from the source sheet (`Configuration Findings`).
+    - Deletes the corresponding row from the source sheet (`Open POA&M Items`).
 
 ## Logic and Workflow
 1. Captures the edit event and identifies the sheet and cell edited.
-2. Checks if the edit is in the "False Positive" column of the "Configuration Findings" sheet.
+2. Checks if the edit is in the "False Positive" column of the "Open POA&M Items" sheet.
 3. If the value is `Yes`, retrieves the row data, appends it to the "Closed POA&M Items" sheet, and deletes the original row.
 
 ## Dependencies and Imports
@@ -35,7 +35,7 @@ This script, written in JavaScript for Google Apps Script, automates the managem
 
 ## Input/Output
 - **Input**:
-    - User edits in the "Configuration Findings" sheet, specifically in the "False Positive" column.
+    - User edits in the "Open POA&M Items" sheet, specifically in the "False Positive" column.
 
 - **Output**:
     - Moves the edited row to the "Closed POA&M Items" sheet if marked `Yes`.
@@ -58,7 +58,7 @@ This script, written in JavaScript for Google Apps Script, automates the managem
 - Additional comments explaining the workflow would improve maintainability.
 
 ## Potential Issues
-1. Assumes the presence of "Configuration Findings" and "Closed POA&M Items" sheets.
+1. Assumes the presence of "Open POA&M Items" and "Closed POA&M Items" sheets.
 2. Direct row deletion can lead to unintended consequences if other processes depend on row indices.
 
 ## Security Considerations
@@ -79,3 +79,5 @@ This script, written in JavaScript for Google Apps Script, automates the managem
 2. Implement logging for errors or missing prerequisites to improve debugging.
 3. Use soft deletion (e.g., marking rows as inactive) instead of direct deletion for better traceability.
 4. Provide configuration options for sheet names and column headers to enhance adaptability.
+
+

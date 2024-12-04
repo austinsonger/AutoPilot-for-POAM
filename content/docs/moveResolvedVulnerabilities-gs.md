@@ -1,4 +1,5 @@
-# moveResolvedVulnerabilities
+# moveResolvedVulnerabilities.gs
+
 
 This script, written in JavaScript for Google Apps Script, automates the management of resolved vulnerabilities in a spreadsheet. It compares current vulnerabilities fetched from AWS Inspector and Tenable with the entries in the "Open POA&M Items" sheet. Resolved vulnerabilities are moved to the "Closed POA&M Items" sheet.
 
@@ -95,5 +96,7 @@ This script, written in JavaScript for Google Apps Script, automates the managem
 3. Enhance error handling for API responses and data inconsistencies.
 4. Implement pagination handling for large datasets fetched from APIs.
 5. Use soft deletion (e.g., marking resolved items) instead of direct deletion for better traceability.
+
+
 
 

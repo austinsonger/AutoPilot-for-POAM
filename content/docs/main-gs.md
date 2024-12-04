@@ -1,4 +1,4 @@
-# mainCode
+# main.gs
 
 This script, written in JavaScript for Google Apps Script, automates the process of fetching vulnerability data from AWS Inspector and Tenable APIs, updating Google Sheets, and managing a Plan of Action and Milestones (POA&M) workbook. It integrates multiple libraries and performs tasks such as conditional formatting, workbook updates, and error logging.
 
@@ -105,5 +105,6 @@ This script, written in JavaScript for Google Apps Script, automates the process
 3. Implement pagination handling for large datasets fetched from APIs.
 4. Validate API responses and input data more rigorously.
 5. Use environment variables or secure storage for sensitive data like API keys.
+
 
 

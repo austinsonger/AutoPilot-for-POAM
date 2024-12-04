@@ -1,6 +1,6 @@
-# AWSInspectorData
+# fetchAWSInspectorData.gs
 
-This script, written in JavaScript for Google Apps Script, integrates with AWS Inspector to fetch findings data. It uses AWS credentials that can either be passed via an HTTP `POST` request or fetched from GitHub Secrets. The script generates AWS signature headers for authentication and retrieves vulnerability findings from AWS Inspector.
+> This script, written in JavaScript for Google Apps Script, integrates with AWS Inspector to fetch findings data. It uses AWS credentials that can either be passed via an HTTP `POST` request or fetched from GitHub Secrets. The script generates AWS signature headers for authentication and retrieves vulnerability findings from AWS Inspector.
 
 ## Structure and Organization
 - **Main Functions**:

@@ -1,6 +1,6 @@
-# configurationFindings
+# closingConfigurationItems.gs
 
-This script, written in JavaScript for Google Apps Script, automates the management of findings in a spreadsheet. Specifically, it moves rows marked as "False Positive" (`Yes`) from a sheet named "Configuration Findings" to another sheet called "Closed POA&M Items" and deletes the original row from the source sheet.
+> This script, written in JavaScript for Google Apps Script, automates the management of findings in a spreadsheet. Specifically, it moves rows marked as "False Positive" (`Yes`) from a sheet named "Configuration Findings" to another sheet called "Closed POA&M Items" and deletes the original row from the source sheet.
 
 ## Structure and Organization
 - **Function**: `configurationFindings(e)`

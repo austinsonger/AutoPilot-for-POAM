@@ -4,9 +4,9 @@
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
     <variables></variables>
-    <build-profile instance="in">
+    <build-profile instance="a">
         <variables>
-            <noindex-content>false</noindex-content>
+            <noindex-content>true</noindex-content>
         </variables>
     </build-profile>
 

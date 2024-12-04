@@ -1,4 +1,4 @@
-# fetchTenableAPIKEYFromGithub
+# fetchTenableApiKeyFromGitHub.gs
 
 
 This script is written in JavaScript for Google Apps Script. It fetches the `TENABLE_API_KEY` secret from a GitHub repository by using a GitHub App's JWT authentication. The script retrieves and uses a private key stored in the Script Properties for generating the JWT and acquiring an installation access token.

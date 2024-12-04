@@ -1,4 +1,4 @@
-# fetchAWSCredentialsFromGithub
+# fetchAwsCredentialsFromGitHub.gs
 
 This script, written in JavaScript for Google Apps Script, integrates with AWS and GitHub to retrieve AWS credentials stored as GitHub Secrets. It uses these credentials to make authenticated requests to AWS services. The script ensures secure integration by leveraging a GitHub App with JWT authentication.
 
