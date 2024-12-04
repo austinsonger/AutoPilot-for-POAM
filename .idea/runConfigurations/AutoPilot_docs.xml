@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="AutoPilot docs" type="StardustRunConfiguration" factoryName="build-pdf">
+    <option name="copyright" />
+    <option name="description" />
+    <option name="folderPath" value="$PROJECT_DIR$/output" />
+    <option name="footer" />
+    <option name="header" />
+    <option name="instanceId" value="a" />
+    <option name="instanceName" value="AutoPilot" />
+    <option name="layout" />
+    <option name="logoPath" />
+    <option name="title" />
+    <method v="2" />
+  </configuration>
+</component>
