@@ -1,8 +1,4 @@
-# Topic title
-
+# Summary
 
 [Introduction](README.md)
-
-
-
 

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="34326338">
+        <description>Created after removal of "fetch Function (AWS Inspector)" from Instance Name</description>
+        <accepts>fetchAWSCredentials.html</accepts>
+    </rule>
+    <rule id="421432ec">
+        <description>Created after removal of "fetchAWSInspectorData Function" from Instance Name</description>
+        <accepts>fetchAWSInspectorData.html</accepts>
+    </rule>
+    <rule id="32e0e8b3">
+        <description>Created after removal of "fetchTenableData Function" from Instance Name</description>
+        <accepts>fetchTenableData.html</accepts>
+    </rule>
+    <rule id="3d1e4707">
+        <description>Created after removal of "moveResolvedVulnerabilities Function" from Instance Name</description>
+        <accepts>moveResolvedVulnerabilities.html</accepts>
+    </rule>
+    <rule id="14e53a8d">
+        <description>Created after removal of "openPOAMItems Function" from Instance Name</description>
+        <accepts>openPOAMItems.html</accepts>
+    </rule>
+    <rule id="adaf09c">
+        <description>Created after removal of "fetch Function (Tenable)" from Instance Name</description>
+        <accepts>fetchTenableCredentials.html</accepts>
+    </rule>
+    <rule id="65aedc37">
+        <description>Created after removal of "configurationFindings" from Instance Name</description>
+        <accepts>configurationFindings.html</accepts>
+    </rule>
+    <rule id="64a62691">
+        <description><![CDATA[Created after removal of "<configurationFindings.md>" from Docs]]></description>
+        <accepts>configurationFindings.html</accepts>
+    </rule>
+    <rule id="22eab24a">
+        <description><![CDATA[Created after removal of "<fetchTenableAPIKEYFromGithub.md>" from Docs]]></description>
+        <accepts>fetchTenableAPIKEYFromGithub.html</accepts>
+    </rule>
+    <rule id="87a94f1">
+        <description><![CDATA[Created after removal of "<openPOAMItems.md>" from Docs]]></description>
+        <accepts>openPOAMItems.html</accepts>
+    </rule>
+    <rule id="4f6f0c17">
+        <description><![CDATA[Created after removal of "<Functions.md>" from Docs]]></description>
+        <accepts>Functions.html</accepts>
+    </rule>
+    <rule id="d2856a6">
+        <description><![CDATA[Created after removal of "<moveResolvedVulnerabilities.md>" from Docs]]></description>
+        <accepts>moveResolvedVulnerabilities.html</accepts>
+    </rule>
+    <rule id="5d4a9d7f">
+        <description><![CDATA[Created after removal of "<Github-Apps.md>" from Docs]]></description>
+        <accepts>Github-Apps.html</accepts>
+    </rule>
+    <rule id="3fbe936a">
+        <description><![CDATA[Created after removal of "<TenableData.md>" from Docs]]></description>
+        <accepts>TenableData.html</accepts>
+    </rule>
+    <rule id="2aeb619f">
+        <description><![CDATA[Created after removal of "<fetchAWSCredentialsFromGithub.md>" from Docs]]></description>
+        <accepts>fetchAWSCredentialsFromGithub.html</accepts>
+    </rule>
+    <rule id="3dbe3ef4">
+        <description><![CDATA[Created after removal of "<AWSInspectorData.md>" from Docs]]></description>
+        <accepts>AWSInspectorData.html</accepts>
+    </rule>
+    <rule id="483425f5">
+        <description><![CDATA[Created after removal of "<mainCode.md>" from Docs]]></description>
+        <accepts>mainCode.html</accepts>
+    </rule>
+    <rule id="9942994">
+        <description><![CDATA[Created after removal of "<SUMMARY.md>" from Docs]]></description>
+        <accepts>SUMMARY.html</accepts>
+    </rule>
+    <rule id="2d06aaa6">
+        <description><![CDATA[Created after removal of "<SUMMARY.md>" from Docs]]></description>
+        <accepts>SUMMARY.html</accepts>
+    </rule>
+</rules>
