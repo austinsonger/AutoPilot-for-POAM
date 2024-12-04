@@ -1,8 +1,7 @@
 
 # configurationFindings Function
 
-## Overview
-This function manages configuration findings in a Google Spreadsheet. When a row in the "Configuration Findings" sheet is marked as a "False Positive," the function moves that row to the "Closed POA&M Items" sheet and deletes it from the original sheet.
+> This function manages configuration findings in a Google Spreadsheet. When a row in the "Configuration Findings" sheet is marked as a "False Positive," the function moves that row to the "Closed POA&M Items" sheet and deletes it from the original sheet.
 
 ## Key Steps
 1. **Retrieve Required Sheets**:
