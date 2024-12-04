@@ -18,10 +18,5 @@ build-dir = "output"
 create-search-index = true
 
 [output.html]
-# The theme used for the HTML output
-theme = "light"
-
-# Additional options for the HTML output
-default-theme = "light"
-additional-js = []
-additional-css = []
+# Remove the theme override or ensure the default is used
+theme = "default"
