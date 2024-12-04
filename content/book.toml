@@ -19,4 +19,5 @@ create-search-index = true
 
 [output.html]
 # Remove the theme override or ensure the default is used
-theme = "default"
+theme = "theme/default"
+
