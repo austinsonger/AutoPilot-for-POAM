@@ -20,7 +20,7 @@
 5. **Delete the Row**:
    - Deletes the resolved row from the "Configuration Findings" sheet.
 
-## Example Workflow
+## Workflow
 
 1. A user edits a row in the "Configuration Findings" sheet, marking it as a "False Positive."
 2. The function checks if the edit is in the "False Positive" column and if the value is "Yes."

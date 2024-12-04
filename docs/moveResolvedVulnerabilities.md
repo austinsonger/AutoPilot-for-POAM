@@ -22,7 +22,7 @@
 5. **Log Results**:
    - Logs the number of rows moved for tracking and debugging purposes.
 
-## Example Workflow
+## Workflow
 
 1. A user or script fetches the latest scan results from AWS Inspector and Tenable.
 2. Rows in the "Open POA&M Items" sheet are compared to these results.

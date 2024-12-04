@@ -20,7 +20,7 @@
 5. **Delete the Row**:
    - Deletes the resolved row from the "Open POA&M Items" sheet.
 
-## Example Workflow
+## Workflow
 
 1. A user updates the "False Positive" column in the "Open POA&M Items" sheet to "Yes."
 2. The function verifies the edited column and value.

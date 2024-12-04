@@ -78,7 +78,7 @@ try {
 }
 ```
 
-## Example Workflow
+## Workflow
 1. Retrieves the API key dynamically.
 2. Fetches asset and vulnerability data from the Tenable API.
 3. Maps vulnerabilities to assets and formats the data for further processing.
