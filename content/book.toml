@@ -1,23 +1,14 @@
 [book]
-# Title of the book
 title = "AutoPilot: POAM"
-
-# Author of the book
 authors = ["Austin Songer"]
-
-# Language of the book
 language = "en"
+create-search-index = true
+src = "docs"
 
-# Directory containing markdown files
-src = "docs"  # Custom directory for markdown files
-
-# Build output directory
+[build]
 build-dir = "output"
 
-# Whether to include a search index
-create-search-index = true
-
 [output.html]
-# Remove the theme override or ensure the default is used
 theme = "theme/default"
+site-url = "/docs/"
 
