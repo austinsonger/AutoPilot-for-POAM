@@ -3,12 +3,13 @@ title = "AutoPilot: POAM"
 authors = ["Austin Songer"]
 language = "en"
 create-search-index = true
-src = "docs"
+src = "content"
 
 [build]
 build-dir = "output"
+create-missing = false
 
 [output.html]
-theme = "theme/default"
+theme = "/content/theme/default"
 site-url = "/docs/"
-
+git-repository-url = "https://github.com/austinsonger/AutoPilot"
