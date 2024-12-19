@@ -1,6 +1,6 @@
 function fetchTenableApiKeyFromGitHub() {
-    const APP_ID = '1076987';
-    const INSTALLATION_ID = '57936913';
+    const APP_ID = '<PLACEHOLDER>';
+    const INSTALLATION_ID = '<PLACEHOLDER>';
 
     // Retrieve the private key from script properties
     const PRIVATE_KEY = PropertiesService.getScriptProperties().getProperty('GITHUB_APP_TENABLE');
