@@ -13,8 +13,8 @@ function fetchAwsCredentialsFromGitHub() {
     throw new Error('Private key not found in Script Properties. Ensure it is set correctly as GITHUB_APP_AWS_SECRETS.');
   }
 
-  const REPO_OWNER = 'CirrusMD';
-  const REPO_NAME = 'AutoPilot';
+  const REPO_OWNER = 'austinsonger';
+  const REPO_NAME = 'AutoPilot-for-POAM';
 
   const jwt = generateGitHubJwt(APP_ID, PRIVATE_KEY);
   const accessToken = getInstallationAccessToken(jwt, INSTALLATION_ID);
